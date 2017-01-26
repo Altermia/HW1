@@ -35,10 +35,10 @@
 #include <X11/keysym.h>
 #include <GL/glx.h>
 
-#define WINDOW_WIDTH  800
-#define WINDOW_HEIGHT 600
+#define WINDOW_WIDTH  1920
+#define WINDOW_HEIGHT 1200
 
-#define MAX_PARTICLES 1
+#define MAX_PARTICLES 50
 #define GRAVITY 0.1
 
 //X Windows variables
@@ -272,7 +272,7 @@ void render(Game *game)
 
 	//draw all particles here
 	glPushMatrix();
-	glColor3ub(150,160,220);
+	glColor3ub(86,135,255);
 	Vec *c = &game->particle.s.center;
 	w = 2;
 	h = 2;
