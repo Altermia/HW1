@@ -4,7 +4,7 @@
 all: hw1
 
 lab1: hw1.cpp
-	g++ lab1.cpp -Wall -ohw1 -lX11 -lGL -lGLU -lm
+	g++ hw1.cpp -Wall -ohw1 -lX11 -lGL -lGLU -lm
 
 clean:
 	rm -f lab1
